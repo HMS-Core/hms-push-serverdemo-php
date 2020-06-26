@@ -153,6 +153,7 @@ class Application
 
         $ret = @curl_exec($ch);
         if ($ret === false) {
+            $this->printLogMethodOperate('curl_exec error #' . curl_errno($ch) . ' : ' . curl_error($ch), __FUNCTION__ . ':' . __LINE__, Constants::HW_PUSH_LOG_ERROR_LEVEL);
             return null;
         }
 
