@@ -20,7 +20,7 @@ limitations under the License.
  *              1) sendPushMsgMessageByMsgType(code class object);
  *              2) sendPushMsgRealMessage(text msg)
  */
-include_once (dirname(__FILE__) . './push_common/test_sample_push_msg_common.php');
+include_once (dirname(__FILE__) . '/push_common/test_sample_push_msg_common.php');
 include_once (dirname(__FILE__) . '/../push_admin/Constants.php');
 use push_admin\Constants;
 

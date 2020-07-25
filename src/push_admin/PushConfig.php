@@ -85,6 +85,9 @@ class PushConfig
         $lineData = str_replace("\'", "", $lineData);
         $lineData = str_replace(" ", "", $lineData);
         $lineData = str_replace(";", "", $lineData);
+
+        $order=array("\r\n","\n","\r");
+        $lineData=str_replace($order,"",$lineData);
         $lineData = str_replace(PHP_EOL, '', $lineData);
         $resultPos = stripos($lineData, "=");
         if (FALSE == $resultPos) {

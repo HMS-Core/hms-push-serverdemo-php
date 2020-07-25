@@ -17,8 +17,8 @@ limitations under the License.
 
 namespace push_admin;
 
-include_once (dirname(__FILE__) . './Constants.php');
-include_once (dirname(__FILE__) . './PushConfig.php');
+include_once (dirname(__FILE__) . '/Constants.php');
+include_once (dirname(__FILE__) . '/PushConfig.php');
 
 use Exception;
 

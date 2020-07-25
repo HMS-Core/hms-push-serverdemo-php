@@ -21,7 +21,7 @@ limitations under the License.
  *              2) sendPushMsgRealMessage(text msg)
  *              3) ios format may change,sometimes push msg depends of ios msg format
  */
-include_once (dirname(__FILE__) . './push_common/test_sample_push_msg_common.php');
+include_once (dirname(__FILE__) . '/push_common/test_sample_push_msg_common.php');
 include_once (dirname(__FILE__) . '/../push_admin/Constants.php');
 use push_admin\Constants;
 

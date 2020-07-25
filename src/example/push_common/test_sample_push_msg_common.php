@@ -328,7 +328,7 @@ class TestPushMsgCommon
         $android_notification->channel_id("RingRing");
         $android_notification->notify_summary("Some Summary");
         $android_notification->image("https://developer-portalres-drcn.dbankcdn.com/system/modules/org.opencms.portal.template.core/resources/images/icon_Promotion.png");
-        $android_notification->style(2);
+        $android_notification->style(0);
         $android_notification->big_title("Big Boom Title");
         $android_notification->big_body("Big Boom Body");
         $android_notification->auto_clear(86400000);

@@ -21,7 +21,7 @@ limitations under the License.
  *              2) sendPushMsgRealMessage(text msg)
  *              3) topic and condition not real time, maybe delay
  */
-include_once (dirname(__FILE__) . './push_common/test_sample_push_msg_common.php');
+include_once (dirname(__FILE__) . '/push_common/test_sample_push_msg_common.php');
 include_once (dirname(__FILE__) . '/../push_admin/Constants.php');
 use push_admin\Constants;
 
@@ -54,7 +54,7 @@ $message = '{
 			"Cat"],
 			"channel_id": "RingRing",
 			"notify_summary": "Some Summary",
-			"style": 2,
+			"style": 0,
 			"big_title": "Big Boom Title",
 			"big_body": "Big Boom Body",
 			"auto_clear": 86400000,

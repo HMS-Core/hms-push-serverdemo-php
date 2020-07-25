@@ -22,8 +22,8 @@ limitations under the License.
  */
 namespace push_admin;
 
-include_once (dirname(__FILE__) . './Constants.php');
-include_once (dirname(__FILE__) . './PushLogConfig.php');
+include_once (dirname(__FILE__) . '/Constants.php');
+include_once (dirname(__FILE__) . '/PushLogConfig.php');
 
 class Application
 {

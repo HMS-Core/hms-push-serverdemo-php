@@ -15,7 +15,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
  */
 
-include_once (dirname(__FILE__) . './push_common/test_sample_push_msg_common.php');
+include_once (dirname(__FILE__) . '/push_common/test_sample_push_msg_common.php');
 include_once (dirname(__FILE__) . '/../push_admin/Constants.php');
 use push_admin\Constants;
 
