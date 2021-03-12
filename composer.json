@@ -1,0 +1,26 @@
+{
+  "name": "HMS-Core/hms-push-php",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/HMS-Core/hms-push-serverdemo-php",
+  "description": "PHP support for HMS push notifications",
+  "keywords": [
+    "push notifications",
+    "huawei push notifications",
+    "hms"
+  ],
+  "authors": [
+    {
+      "name": "Huawei",
+      "email": "hello@huawei.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Huawei\\": "src/"
+    }
+  }
+}
