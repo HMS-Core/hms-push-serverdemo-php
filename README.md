@@ -63,7 +63,7 @@ Code location: [examples/test_sample_push_topic_msg.php](https://github.com/HMS-
 Code location: [examples/test_sample_push_condition_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_condition_msg.php)  
 
 5.Send a message to a Huawei quick app.  
-Code location: [examples/test_sample_push_instantce_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_instantce_app_msg.php)
+Code location: [examples/test_sample_push_instant_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_instant_app_msg.php)
 
 6.Send a message through the WebPush agent.  
 Code location: [examples/test_sample_push_webpush_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_webpush_msg.php)
