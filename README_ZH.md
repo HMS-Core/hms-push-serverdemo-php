@@ -60,7 +60,7 @@ Application包括如下方法：
 代码位置: [examples/test_sample_push_condition_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_condition_msg.php)  
 
 5.	向华为快应用发送消息 
-代码位置: [examples/test_sample_push_instantce_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_instantce_app_msg.php)
+代码位置: [examples/test_sample_push_instant_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_instant_app_msg.php)
 
 6.	基于WebPush代理发送消息
 代码位置: [examples/test_sample_push_webpush_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_webpush_msg.php)
