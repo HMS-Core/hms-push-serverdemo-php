@@ -1,5 +1,5 @@
 # HMS Pushkit PHP Severdemo
-English | [中文](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/README_ZH.md)
+English | [中文](README_ZH.md)
 
 ## Table of Contents
  * [Introduction](#introduction)
@@ -8,7 +8,7 @@ English | [中文](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/mast
  * [Supported Environments](#supported-environments)
  * [Sample Code](#sample-code)
  * [License](#license)
- 
+
 ## Introduction
 PHP sample code encapsulates APIs of the HUAWEI Push Kit server.It provides many sample 
 PHP programs about quick access to HUAWEI Push Kit for your reference or usage.  
@@ -63,7 +63,7 @@ Code location: [examples/test_sample_push_topic_msg.php](https://github.com/HMS-
 Code location: [examples/test_sample_push_condition_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_condition_msg.php)  
 
 5.Send a message to a Huawei quick app.  
-Code location: [examples/test_sample_push_instant_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_instant_app_msg.php)
+Code location: [examples/test_sample_push_quick_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_quick_app_msg.php)
 
 6.Send a message through the WebPush agent.  
 Code location: [examples/test_sample_push_webpush_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_webpush_msg.php)
@@ -79,7 +79,7 @@ If you want to evaluate more about HMS Core,
 [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
 
 If you have questions about how to use HMS samples, try the following options:
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services?tab=Votes) is the best place for any programming questions. Be sure to tag your question with 
 `huawei-mobile-services`.
 - [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
 

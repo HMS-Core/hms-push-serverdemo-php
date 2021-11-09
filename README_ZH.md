@@ -1,5 +1,6 @@
 # 华为推送服务服务端PHP示例代码
-[English](https://github.com/HMS-Core/hms-push-serverdemo-php) | 中文
+[English](README.md) | 中文
+
 ## 目录
  * [简介](#简介)
  * [安装](#安装)
@@ -7,7 +8,7 @@
  * [配置](#配置)
  * [示例代码](#示例代码)
  * [授权许可](#授权许可)
- 
+
 ## 简介
 PHP示例代码对华为推送服务（HUAWEI Push Kit）服务端接口进行封装，包含丰富的示例程序，方便您参考或直接使用。
 示例代码主要包括以下组成：
@@ -60,7 +61,7 @@ Application包括如下方法：
 代码位置: [examples/test_sample_push_condition_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_condition_msg.php)  
 
 5.	向华为快应用发送消息 
-代码位置: [examples/test_sample_push_instant_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_instant_app_msg.php)
+代码位置: [examples/test_sample_push_quick_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_quick_app_msg.php)
 
 6.	基于WebPush代理发送消息
 代码位置: [examples/test_sample_push_webpush_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_webpush_msg.php)
@@ -75,7 +76,7 @@ Application包括如下方法：
 如果您对HMS Core还处于评估阶段，可在[Reddit社区](https://www.reddit.com/r/HuaweiDevelopers/)获取关于HMS Core的最新讯息，并与其他开发者交流见解。
 
 如果您对使用HMS示例代码有疑问，请尝试：
-- 开发过程遇到问题上[Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services)，在`huawei-mobile-services`标签下提问，有华为研发专家在线一对一解决您的问题。
+- 开发过程遇到问题上[Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services?tab=Votes)，在`huawei-mobile-services`标签下提问，有华为研发专家在线一对一解决您的问题。
 - 到[华为开发者论坛](https://developer.huawei.com/consumer/cn/forum/blockdisplay?fid=18) HMS Core板块与其他开发者进行交流。
 
 如果您在尝试示例代码中遇到问题，请向仓库提交[issue](https://github.com/HMS-Core/hms-push-serverdemo-php/issues)，也欢迎您提交[Pull Request](https://github.com/HMS-Core/hms-push-serverdemo-php/pulls)。
