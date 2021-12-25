@@ -121,7 +121,7 @@ class Application
             "Content-Type: application/x-www-form-urlencoded;charset=utf-8"
         )));
         $this->printLogMethodOperate('refresh_token result:' . json_encode($result), __FUNCTION__ . ':' . __LINE__);
-        if ($result == null || ! array_key_exists("access_token", $result)) {
+        if ($result == null || ! property_exists($result, "access_token")) {
             $this->printLogMethodOperate('refresh_token result error!', __FUNCTION__ . ':' . __LINE__, Constants::HW_PUSH_LOG_ERROR_LEVEL);
             return null;
         }
@@ -139,7 +139,7 @@ class Application
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 0);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
         $this->printLogMethodOperate('curl_https_post curl send headers:' . json_encode($header), __FUNCTION__ . ':' . __LINE__, Constants::HW_PUSH_LOG_DEBUG_LEVEL);
-        
+
         // resolve SSL: no alternative certificate subject name matches target host name
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0); // check verify
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
@@ -182,7 +182,7 @@ class Application
         if ($this->is_token_expired()) {
             $this->refresh_token();
         }
-        
+
         if (empty($this->accesstoken)){
             $this->printLogMethodOperate("accesstoken is empty!", 
                 __FUNCTION__ . ':' . __LINE__,Constants::HW_PUSH_LOG_ERROR_LEVEL);
@@ -217,7 +217,7 @@ class Application
         if ($this->is_token_expired()) {
             $this->refresh_token();
         }
-        
+
         if (empty($this->accesstoken)){
             $this->printLogMethodOperate("accesstoken is empty!",
                 __FUNCTION__ . ':' . __LINE__,Constants::HW_PUSH_LOG_ERROR_LEVEL);
@@ -232,7 +232,6 @@ class Application
 
         // $result ==> eg: {"code":"80000000","msg":"Success","requestId":"157278422841836431010901"}
         $this->printLogMethodOperate('common_send_msg leave result:' . json_encode($result), __FUNCTION__ . ':' . __LINE__);
-        
 
         if (! empty($result)) {
             $arrResult = json_decode(json_encode($result), true);
