@@ -35,11 +35,11 @@ The following table describes parameters of the ____construct__ method.
 | :---               | :---
 | __appid__   | App ID, which is obtained from app information.
 | __appsecret__ | 	Secret access key of an app, which is obtained from app information.
-| __access_token__      | URL for the Huawei OAuth 2.0 service to obtain a token, <br>please refer to [Generating an App-Level Access Token](https://developer.huawei.com/consumer/en/doc/development/parts-Guides/generating_app_level_access_token).
-| __hw_token_server__      | URL for accessing HUAWEI Push Kit, please refer to [Sending Messages](https://developer.huawei.com/consumer/en/doc/development/HMS-References/push-sendapi).
+| __access_token__      | URL for the Huawei OAuth 2.0 service to obtain a token, <br>please refer to [Generating an App-Level Access Token](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/oauth2-0000001212610981).
+| __hw_token_server__      | URL for accessing HUAWEI Push Kit, please refer to [Sending Messages](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-server-dev-0000001050040110?ha_source=hms1).
 
 ## Sample Code
-Download PHP sample code in [Downloading Server Sample Code](https://developer.huawei.com/consumer/en/doc/push-sample-code-s).   
+
 PHP sample code uses the Application structure in the push_admin package as the entry.   
 Core methods in the Application structure are used to call APIs of the HUAWEI Push Kit server.  
 The following table lists methods in Application.
