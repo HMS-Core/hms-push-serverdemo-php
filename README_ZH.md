@@ -34,11 +34,11 @@ __construct方法包括如下参数：
 | :---               | :---
 | __appid__   | 应用ID，从应用消息中获取
 | __appsecret__ | 	应用访问密钥，从应用信息中获取
-| __access_token__      | 华为OAuth 2.0获取token的地址。具体请参考 [基于OAuth 2.0开放鉴权-客户端模式](https://developer.huawei.com/consumer/cn/doc/development/parts-Guides/generating_app_level_access_token).
-| __hw_token_server__      | 推送服务的访问地址。具体请参考[推送服务-下行消息](https://developer.huawei.com/consumer/cn/doc/development/HMS-References/push-sendapi).
+| __access_token__      | 华为OAuth 2.0获取token的地址。具体请参考[基于OAuth 2.0开放鉴权-客户端模式](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/oauth2-0000001212610981)。
+| __hw_token_server__      | 推送服务的访问地址。具体请参考[推送服务-下行消息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-server-dev-0000001050040110?ha_source=hms1)。
 
 ## 示例代码
-请在[服务端示例代码](https://developer.huawei.com/consumer/cn/doc/push-sample-code-s)下载PHP示例代码。   
+请在[服务端示例代码](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Examples/server-sample-code-0000001050986079)下载PHP示例代码。   
 本示例代码以push_admin包中的Application结构体为入口。Application结构体中的核心方法完成了对推送服务服务端接口的调用。
 Application包括如下方法：
 
