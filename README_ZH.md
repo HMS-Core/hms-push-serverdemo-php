@@ -38,7 +38,7 @@ __construct方法包括如下参数：
 | __hw_token_server__      | 推送服务的访问地址。具体请参考[推送服务-下行消息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-server-dev-0000001050040110?ha_source=hms1)。
 
 ## 示例代码
-请在[服务端示例代码](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Examples/server-sample-code-0000001050986079)下载PHP示例代码。   
+   
 本示例代码以push_admin包中的Application结构体为入口。Application结构体中的核心方法完成了对推送服务服务端接口的调用。
 Application包括如下方法：
 
