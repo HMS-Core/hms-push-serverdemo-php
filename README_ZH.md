@@ -49,29 +49,29 @@ Application包括如下方法：
 | __common_send_msg__ | 订阅主题、退订主题、查询设备订阅的主题列表
 | ____construc__      | 构造函数，获取发送消息的关键数据
 
-1.	发送Android透传消息
-代码位置: [examples/test_sample_push_passthrouth_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_passthrouth_msg.php)             
+#### 1.	发送Android透传消息
+代码位置: [examples/test_sample_push_passthrouth_msg.php](src/example/test_sample_push_passthrouth_msg.php)             
 
-2.	发送Android通知栏消息
-代码位置: [examples/test_sample_push_notification_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_notification_msg.php)
+#### 2.	发送Android通知栏消息
+代码位置: [examples/test_sample_push_notification_msg.php](src/example/test_sample_push_notification_msg.php)
 
-3.	基于主题发送消息
-代码位置: [examples/test_sample_push_topic_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_topic_msg.php)
+#### 3.	基于主题发送消息
+代码位置: [examples/test_sample_push_topic_msg.php](src/example/test_sample_push_topic_msg.php)
 
-4.	基于条件发送消息 
-代码位置: [examples/test_sample_push_condition_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_condition_msg.php)  
+#### 4.	基于条件发送消息 
+代码位置: [examples/test_sample_push_condition_msg.php](src/example/test_sample_push_condition_msg.php)  
 
-5.	向华为快应用发送消息 
-代码位置: [examples/test_sample_push_quick_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_quick_app_msg.php)
+#### 5.	向华为快应用发送消息 
+代码位置: [examples/test_sample_push_instantce_app_msg.php](src/example/test_sample_push_instantce_app_msg.php)
 
-6.	基于WebPush代理发送消息
-代码位置: [examples/test_sample_push_webpush_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_webpush_msg.php)
+#### 6.	基于WebPush代理发送消息
+代码位置: [examples/test_sample_push_webpush_msg.php](src/example/test_sample_push_webpush_msg.php)
 
-7.	基于APNs代理发送消息
-代码位置: [examples/test_sample_apns_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_apns_msg.php)
+#### 7.	基于APNs代理发送消息
+代码位置: [examples/test_sample_apns_msg.php](src/example/test_sample_apns_msg.php)
 
-8.	发送测试消息.  
-代码位置: [examples/test_sample_test_push_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_test_push_msg.php)
+#### 8.	发送测试消息.  
+代码位置: [examples/test_sample_test_push_msg.php](src/example/test_sample_test_push_msg.php)
 
 ## 技术支持
 如果您对HMS Core还处于评估阶段，可在[Reddit社区](https://www.reddit.com/r/HuaweiDevelopers/)获取关于HMS Core的最新讯息，并与其他开发者交流见解。
