@@ -51,29 +51,29 @@ The following table lists methods in Application.
 | __common_send_msg__ | Subscribes to a topic, unsubscribes from a topic,<br>and queries the list of topics subscribed by a device.
 | ____construc__      | Constructor, which obtains key data for sending a message.
 
-1.Send an Android data message.  
-Code location: [examples/test_sample_push_passthrouth_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_passthrouth_msg.php)             
+#### 1.Send an Android data message.  
+Code location: [examples/test_sample_push_passthrouth_msg.php](src/example/test_sample_push_passthrouth_msg.php)             
 
-2.Send an Android notification message.  
-Code location: [examples/test_sample_push_notification_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_notification_msg.php)
+#### 2.Send an Android notification message.  
+Code location: [examples/test_sample_push_notification_msg.php](src/example/test_sample_push_notification_msg.php)
 
-3.Send a message by topic.  
-Code location: [examples/test_sample_push_topic_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_topic_msg.php)
+#### 3.Send a message by topic.  
+Code location: [examples/test_sample_push_topic_msg.php](src/example/test_sample_push_topic_msg.php)
 
-4.Send a message by conditions.  
-Code location: [examples/test_sample_push_condition_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_condition_msg.php)  
+#### 4.Send a message by conditions.  
+Code location: [examples/test_sample_push_condition_msg.php](src/example/test_sample_push_condition_msg.php)  
 
-5.Send a message to a Huawei quick app.  
-Code location: [examples/test_sample_push_quick_app_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_quick_app_msg.php)
+#### 5.Send a message to a Huawei quick app.  
+Code location: [examples/test_sample_push_instantce_app_msg.php](src/example/test_sample_push_instantce_app_msg.php)
 
-6.Send a message through the WebPush agent.  
-Code location: [examples/test_sample_push_webpush_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_push_webpush_msg.php)
+#### 6.Send a message through the WebPush agent.  
+Code location: [examples/test_sample_push_webpush_msg.php](src/example/test_sample_push_webpush_msg.php)
 
-7.Send a message through the APNs agent.  
-Code location: [examples/test_sample_apns_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_apns_msg.php)
+#### 7.Send a message through the APNs agent.  
+Code location: [examples/test_sample_apns_msg.php](src/example/test_sample_apns_msg.php)
 
-8.Send a test message.  
-Code location: [examples/test_sample_test_push_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_test_push_msg.php)
+#### 8.Send a test message.  
+Code location: [examples/test_sample_test_push_msg.php](src/example/test_sample_test_push_msg.php)
 
 ## Technical Support
 If you want to evaluate more about HMS Core,
