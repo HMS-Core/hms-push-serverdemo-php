@@ -7,6 +7,7 @@ English | [中文](README_ZH.md)
  * [Configuration](#configuration)
  * [Supported Environments](#supported-environments)
  * [Sample Code](#sample-code)
+ * [Technical Support](#technical-support)
  * [License](#license)
 
 ## Introduction
@@ -74,7 +75,7 @@ Code location: [examples/test_sample_apns_msg.php](https://github.com/HMS-Core/h
 8.Send a test message.  
 Code location: [examples/test_sample_test_push_msg.php](https://github.com/HMS-Core/hms-push-serverdemo-php/blob/master/src/example/test_sample_test_push_msg.php)
 
-## Question or issues
+## Technical Support
 If you want to evaluate more about HMS Core,
 [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
 
