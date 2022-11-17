@@ -39,8 +39,8 @@ $message_arr = array('{
 		"notification": {
 			"title": "web2 push title test",
 			"body": "web2 push body",
-			"icon": "https://developer-portalres-drcn.dbankcdn.com/system/modules/org.opencms.portal.template.core/resources/images/icon_Promotion.png",
-			"image": "https://developer-portalres-drcn.dbankcdn.com/system/modules/org.opencms.portal.template.core/resources/images/icon_Promotion.png",
+			"icon": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2.png",
+			"image": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2.png",
 			"lang": "string",
 			"tag": "string",
 			"badge": "string",
@@ -54,12 +54,12 @@ $message_arr = array('{
 			"timestamp": 1545201266,
 			"actions": [{
 				"title": "string",
-				"icon": "https://developer-portalres-drcn.dbankcdn.com/system/modules/org.opencms.portal.template.core/resources/images/icon_Promotion.png",
+				"icon": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2.png",
 				"action": "123"
 			}]
 		},
 		"hms_options": {
-			"link": "https://www.cctv.com/"
+			"link": "https://www.huawei.com/"
 		}
 	}
 }',
@@ -80,7 +80,7 @@ $message_arr = array('{
 			"timestamp": 1545201266,
 			"actions": [{
 				"title": "string",
-				"icon": "https://developer-portalres-drcn.dbankcdn.com/system/modules/org.opencms.portal.template.core/resources/images/icon_Promotion.png",
+				"icon": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2.png",
 				"action": "123"
 			}]
 		},
