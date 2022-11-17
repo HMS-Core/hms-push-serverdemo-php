@@ -33,7 +33,7 @@ $message_arr = array(
 	"notification": {
 		"title": "Big News1",
 		"body": "This is a Big News!",
-		"image": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2_0.png"
+		"image": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2.png"
 	},
 	"android": {
 		"notification": {
@@ -50,7 +50,7 @@ $message_arr = array(
 	"notification": {
 		"title": "Big News",
 		"body": "This is a Big News!",
-		"image": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2_0.png"
+		"image": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2.png"
 	},
 	"android": {
 		"notification": {
