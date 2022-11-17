@@ -43,7 +43,6 @@ $message = '{
 			"click_action": {
 				"type": 1,
 				"intent": "#Intent;compo=com.rvr\/.Activity;S.W=U;end",
-				"rich_resource": "test rich resource",
 				"action": "test add"
 			},
 			"body_loc_key": "M.String.body",
