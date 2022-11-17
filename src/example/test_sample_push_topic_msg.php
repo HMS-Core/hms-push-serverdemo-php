@@ -48,7 +48,6 @@ $message_arr = array('{
 			"click_action": {
 				"type": 1,
 				"intent": "#Intent;compo=com.rvr\/.Activity;S.W=U;end",
-				"rich_resource": "test rich resource",
 				"action": "test add"
 			}
 		}
