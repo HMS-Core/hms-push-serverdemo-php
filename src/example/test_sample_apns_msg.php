@@ -69,7 +69,7 @@ $message_arr = array(
 			"acme2": ["bang",
 			"whiz"],
             "sound": "default",
-            "launch-image": "https://developer-portalres-drcn.dbankcdn.com/system/modules/org.opencms.portal.template.core/resources/images/icon_Promotion.png"
+            "launch-image": "https://res.vmallres.com/pimages//common/config/logo/SXppnESYv4K11DBxDFc2.png"
 		}
 	}
 }',
