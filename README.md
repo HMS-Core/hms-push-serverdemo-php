@@ -64,7 +64,7 @@ Code location: [examples/test_sample_push_topic_msg.php](src/example/test_sample
 Code location: [examples/test_sample_push_condition_msg.php](src/example/test_sample_push_condition_msg.php)  
 
 #### 5.Send a message to a Huawei quick app.  
-Code location: [examples/test_sample_push_instantce_app_msg.php](src/example/test_sample_push_instantce_app_msg.php)
+Code location: [examples/test_sample_push_instantce_app_msg.php](src/example/test_sample_push_instantce_app_msg.php)        
 
 #### 6.Send a message through the WebPush agent.  
 Code location: [examples/test_sample_push_webpush_msg.php](src/example/test_sample_push_webpush_msg.php)
