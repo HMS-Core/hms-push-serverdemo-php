@@ -16,8 +16,8 @@ PHP示例代码对华为推送服务（HUAWEI Push Kit）服务端接口进行�
 
 | 包名        | 说明
 | :---           | :---
-| __examples__   | 示例代码文件，每个PHP文件都可以独立运行
-| __push_admin__ | 推送服务的服务端接口封装包
+| [examples](src/example)   | 示例代码文件，每个PHP文件都可以独立运行
+| [push_admin](src/push_admin) | 推送服务的服务端接口封装包
 
 ## 安装
 
