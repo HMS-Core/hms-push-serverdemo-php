@@ -17,8 +17,8 @@ The following table describes packages of PHP sample code.
 
 | Package        | Description
 | :---           | :---
-| __examples__   | Sample code files. Each PHP file can run independently.
-| __push_admin__ | Package where APIs of the HUAWEI Push Kit server are <br> encapsulated.
+| [examples](src/example)   | Sample code files. Each PHP file can run independently.
+| [push_admin](src/push_admin) | Package where APIs of the HUAWEI Push Kit server are <br> encapsulated.
 
 ## Installation
 
