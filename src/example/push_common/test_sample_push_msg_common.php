@@ -32,9 +32,9 @@ include_once (dirname(__FILE__) . '/../../push_admin/push_msg/apns/ApnsHmsOption
 include_once (dirname(__FILE__) . '/../../push_admin/push_msg/apns/ApnsHeaders.php');
 include_once (dirname(__FILE__) . '/../../push_admin/push_msg/apns/Aps.php');
 
-include_once (dirname(__FILE__) . '/../../push_admin/push_msg/instanceapp/InstanceAppConfig.php');
-include_once (dirname(__FILE__) . '/../../push_admin/push_msg/instanceapp/InstanceAppPushbody.php');
-include_once (dirname(__FILE__) . '/../../push_admin/push_msg/instanceapp/InstanceAppRingtone.php');
+include_once (dirname(__FILE__) . '/../../push_admin/push_msg/quickapp/QuickAppConfig.php');
+include_once (dirname(__FILE__) . '/../../push_admin/push_msg/quickapp/QuickAppPushbody.php');
+include_once (dirname(__FILE__) . '/../../push_admin/push_msg/quickapp/QuickAppRingtone.php');
 
 include_once (dirname(__FILE__) . '/../../push_admin/push_msg/android/AndroidNotification.php');
 include_once (dirname(__FILE__) . '/../../push_admin/push_msg/webpush/WebPushHeaders.php');
